@@ -1,6 +1,7 @@
 import { LitElement, html, css } from 'lit';
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
+const logo = new URL('../assets/logo.PNG', import.meta.url).href;
+const image = new URL('../assets/Capture.PNG', import.meta.url).href;
 
 export class Project3 extends LitElement {
   static get properties() {
