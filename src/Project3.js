@@ -106,8 +106,8 @@ export class Project3 extends LitElement {
     this.titleOfAuthor='Professional Coder';
     this.brandName='Amazing!'
 
-    this.image='../assets/Capture.PNG';
-    this.logo='../assets/logo.PNG';
+    this.image= image;
+    this.logo= logo;
 
   }
 
