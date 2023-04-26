@@ -1,0 +1,95 @@
+[
+    {
+    "tvColor": "red",
+    "tvIntenna": "pink",
+    "border": "black",
+    "textColor": "orange",
+    "tvOutline": "grey",
+    "cardColor": "white",
+
+    "topblock1": "red",
+    "topblock2": "red",
+    "topblock3": "red",
+    "topblock4": "red",
+    "topblock5": "red",
+    "topblock6": "red",
+    "topblock7": "red",
+
+    "bottomBlock1": "red",
+    "bottomBlock3": "red",
+    "bottomBlock5": "red",
+    "bottomBlock7": "red",
+
+    "badgeTitleColor": "white",
+
+    "eventBadgeTitle": "MEDIA",
+    "eventBadgeAuthor": "Jess",
+    "titleOfAuthor": "Professional Coder",
+    "brandName": "Amazing!",
+
+    "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
+    "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
+    },
+    {
+        "tvColor": "red",
+        "tvIntenna": "pink",
+        "border": "black",
+        "textColor": "orange",
+        "tvOutline": "grey",
+        "cardColor": "white",
+    
+        "topblock1": "red",
+        "topblock2": "red",
+        "topblock3": "red",
+        "topblock4": "red",
+        "topblock5": "red",
+        "topblock6": "red",
+        "topblock7": "red",
+    
+        "bottomBlock1": "red",
+        "bottomBlock3": "red",
+        "bottomBlock5": "red",
+        "bottomBlock7": "red",
+    
+        "badgeTitleColor": "white",
+    
+        "eventBadgeTitle": "MEDIA",
+        "eventBadgeAuthor": "Jess",
+        "titleOfAuthor": "Professional Coder",
+        "brandName": "Amazing!",
+    
+        "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
+        "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
+        },
+        {
+            "tvColor": "red",
+            "tvIntenna": "pink",
+            "border": "black",
+            "textColor": "orange",
+            "tvOutline": "grey",
+            "cardColor": "white",
+        
+            "topblock1": "red",
+            "topblock2": "red",
+            "topblock3": "red",
+            "topblock4": "red",
+            "topblock5": "red",
+            "topblock6": "red",
+            "topblock7": "red",
+        
+            "bottomBlock1": "red",
+            "bottomBlock3": "red",
+            "bottomBlock5": "red",
+            "bottomBlock7": "red",
+        
+            "badgeTitleColor": "white",
+        
+            "eventBadgeTitle": "MEDIA",
+            "eventBadgeAuthor": "Jess",
+            "titleOfAuthor": "Professional Coder",
+            "brandName": "Amazing!",
+        
+            "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
+            "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
+            }
+]
