@@ -1,6 +1,5 @@
 import { LitElement, html, css } from 'lit';
 import "./Project3.js";
-import "./project-3.js";
 export class RemixTypes extends LitElement{
     static get tag() {
         return 'remix-types';
@@ -169,7 +168,7 @@ export class RemixTypes extends LitElement{
 
     static get styles() {
         return css`
-            :host([sepia]){
+            /* :host([sepia]){
       filter: sepia(1);
     }
     :host([grayscale]){
@@ -182,7 +181,7 @@ export class RemixTypes extends LitElement{
         bottom: 0px;
         right: 0px;
         z-index: 2;
-      }
+      } */
 
       .wrapper {
         width: 340px;
@@ -192,6 +191,9 @@ export class RemixTypes extends LitElement{
       .item {
         display: inline-flex;
       }
+      :host {
+            display: block;
+        }
       
         `;
     }

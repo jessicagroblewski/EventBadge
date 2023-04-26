@@ -44,6 +44,10 @@ export class Project3 extends LitElement {
     :host([grayscale]){
       filter: grayscale(1);
     }
+    :host {
+            display: block;
+            padding: 25px;
+        }
       /* :host {
         min-height: 100vh;
         display: flex;
