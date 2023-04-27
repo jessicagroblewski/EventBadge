@@ -7,13 +7,14 @@ export class RemixTypes extends LitElement{
     static get properties() {
         return{
           types: { type: Array},
-          title: { type: String},
+        
           tvColor: { type: String},
-          tvColor: {type: String},
+          tvIntenna: {type: String},
           badgeBorder: { type: String},
           textColor: { type: String},
           tvOutline: { type: String},
           cardColor: { type: String},
+
           topblock1: { type: String},
           topblock2: { type: String},
           topblock3: { type: String},
@@ -21,10 +22,12 @@ export class RemixTypes extends LitElement{
           topblock5: { type: String},
           topblock6: { type: String},
           topblock7: { type: String},
+
           bottomBlock1: { type: String},
           bottomBlock3: { type: String},
           bottomBlock5: { type: String},
           bottomBlock7: { type: String},
+
           badgeTitleColor: { type: String},
           eventBadgeTitle: { type: String},
           eventBadgeAuthor: { type: String},
@@ -38,102 +41,7 @@ export class RemixTypes extends LitElement{
 
     constructor(){
           super();
-          this.types=[
-            
-              {
-              "tvColor": "black",
-              "tvIntenna": "pink",
-              "border": "black",
-              "textColor": "orange",
-              "tvOutline": "grey",
-              "cardColor": "white",
-          
-              "topblock1": "red",
-              "topblock2": "red",
-              "topblock3": "red",
-              "topblock4": "red",
-              "topblock5": "red",
-              "topblock6": "red",
-              "topblock7": "red",
-          
-              "bottomBlock1": "red",
-              "bottomBlock3": "red",
-              "bottomBlock5": "red",
-              "bottomBlock7": "red",
-          
-              "badgeTitleColor": "white",
-          
-              "eventBadgeTitle": "MEDIA",
-              "eventBadgeAuthor": "Jess",
-              "titleOfAuthor": "Professional Coder",
-              "brandName": "Amazing!",
-          
-              "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
-              "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
-              },
-              {
-                  "tvColor": "red",
-                  "tvIntenna": "pink",
-                  "border": "black",
-                  "textColor": "orange",
-                  "tvOutline": "grey",
-                  "cardColor": "white",
-              
-                  "topblock1": "red",
-                  "topblock2": "red",
-                  "topblock3": "red",
-                  "topblock4": "red",
-                  "topblock5": "red",
-                  "topblock6": "red",
-                  "topblock7": "red",
-              
-                  "bottomBlock1": "red",
-                  "bottomBlock3": "red",
-                  "bottomBlock5": "red",
-                  "bottomBlock7": "red",
-              
-                  "badgeTitleColor": "white",
-              
-                  "eventBadgeTitle": "MEDIA",
-                  "eventBadgeAuthor": "Jess",
-                  "titleOfAuthor": "Professional Coder",
-                  "brandName": "Amazing!",
-              
-                  "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
-                  "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
-                  },
-                  {
-                      "tvColor": "red",
-                      "tvIntenna": "pink",
-                      "border": "black",
-                      "textColor": "orange",
-                      "tvOutline": "grey",
-                      "cardColor": "white",
-                  
-                      "topblock1": "red",
-                      "topblock2": "red",
-                      "topblock3": "red",
-                      "topblock4": "red",
-                      "topblock5": "red",
-                      "topblock6": "red",
-                      "topblock7": "red",
-                  
-                      "bottomBlock1": "red",
-                      "bottomBlock3": "red",
-                      "bottomBlock5": "red",
-                      "bottomBlock7": "red",
-                  
-                      "badgeTitleColor": "white",
-                  
-                      "eventBadgeTitle": "MEDIA",
-                      "eventBadgeAuthor": "Jess",
-                      "titleOfAuthor": "Professional Coder",
-                      "brandName": "Amazing!",
-                  
-                      "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
-                      "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
-                      },
-        ];
+          this.types=[];
           this.tvColor= 'blue';
           this.tvIntenna= 'pink';
           this.badgeBorder= 'black';
@@ -156,11 +64,11 @@ export class RemixTypes extends LitElement{
       
           this.badgeTitleColor='white';
       
-          this.eventBadgeTitle='MEDIA';
+          this.eventBadgeTitle='PUPPY';
           this.eventBadgeAuthor='Jess';
           this.titleOfAuthor='Professional Coder';
           this.brandName='Amazing!'
-          this.logo= 'https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA';
+          this.logo= 'https://media.cnn.com/api/v1/images/stellar/prod/210602230802-01-puppy-social-skills-wellness-sci.jpg?q=x_2,y_88,h_898,w_1596,c_crop/h_720,w_1280/f_webp';
           this.image= 'https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA';
           this.updateType();
     }
@@ -168,7 +76,7 @@ export class RemixTypes extends LitElement{
 
     static get styles() {
         return css`
-            /* :host([sepia]){
+            :host([sepia]){
       filter: sepia(1);
     }
     :host([grayscale]){
@@ -181,7 +89,7 @@ export class RemixTypes extends LitElement{
         bottom: 0px;
         right: 0px;
         z-index: 2;
-      } */
+      }
 
       .wrapper {
         width: 340px;
