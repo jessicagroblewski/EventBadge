@@ -1,8 +1,5 @@
 import { LitElement, html, css } from 'lit';
 
-// const logo = new URL('../assets/logo.PNG', import.meta.url).href;
-// const image = new URL('../assets/Capture.PNG', import.meta.url).href;
-
 export class Project3 extends LitElement {
   static get properties() {
     return {
@@ -111,7 +108,6 @@ export class Project3 extends LitElement {
     this.brandName='Amazing!'
 
     this.logo= new URL('../assets/logo.PNG', import.meta.url).href;
-    // this.logo= 'https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA';
     this.image= new URL('../assets/Capture.PNG', import.meta.url).href;
 
   }
