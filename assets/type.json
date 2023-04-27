@@ -96,9 +96,9 @@
                 "tvColor": "yellow",
                 "tvIntenna": "pink",
                 "border": "black",
-                "textColor": "orange",
+                "textColor": "aquamarine",
                 "tvOutline": "grey",
-                "cardColor": "white",
+                "cardColor": "purple",
             
                 "topblock1": "orange",
                 "topblock2": "yellow",
@@ -113,7 +113,7 @@
                 "bottomBlock5": "blue",
                 "bottomBlock7": "blue",
             
-                "badgeTitleColor": "pink",
+                "badgeTitleColor": "aquamarine",
             
                 "eventBadgeTitle": "SUNNY",
                 "eventBadgeAuthor": "Almost summer",
@@ -127,9 +127,9 @@
                     "tvColor": "purple",
                     "tvIntenna": "pink",
                     "border": "black",
-                    "textColor": "orange",
+                    "textColor": "white",
                     "tvOutline": "grey",
-                    "cardColor": "white",
+                    "cardColor": "pink",
                 
                     "topblock1": "red",
                     "topblock2": "red",
