@@ -25,7 +25,7 @@
     "eventBadgeTitle": "Cool",
     "eventBadgeAuthor": "Hello",
     "titleOfAuthor": "I am super cool",
-    "brandName": "Amazing!",
+    "brandName": "Very Amazing!",
 
     "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
     "image": "https://cdn.mos.cms.futurecdn.net/ASHH5bDmsp6wnK6mEfZdcU-1200-80.jpg.webp"
@@ -34,7 +34,7 @@
         "tvColor": "purple",
         "tvIntenna": "pink",
         "border": "black",
-        "textColor": "orange",
+        "textColor": "blue",
         "tvOutline": "grey",
         "cardColor": "white",
     
@@ -53,10 +53,10 @@
     
         "badgeTitleColor": "white",
     
-        "eventBadgeTitle": "MEDIA",
+        "eventBadgeTitle": "NICE",
         "eventBadgeAuthor": "Jess",
         "titleOfAuthor": "Professional Coder",
-        "brandName": "Amazing!",
+        "brandName": "Not Amazing!",
     
         "logo": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/03/dog-group.jpg",
         "image": "https://paradepets.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.webp"
@@ -65,7 +65,7 @@
             "tvColor": "aquamarine",
             "tvIntenna": "pink",
             "border": "black",
-            "textColor": "orange",
+            "textColor": "black",
             "tvOutline": "grey",
             "cardColor": "white",
         
@@ -115,13 +115,13 @@
             
                 "badgeTitleColor": "pink",
             
-                "eventBadgeTitle": "MEDIA",
-                "eventBadgeAuthor": "Jess",
-                "titleOfAuthor": "Professional Coder",
-                "brandName": "Amazing!",
+                "eventBadgeTitle": "SUNNY",
+                "eventBadgeAuthor": "Almost summer",
+                "titleOfAuthor": "Professional ",
+                "brandName": "Amazing :( !",
             
-                "logo": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA",
-                "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
+                "logo": "https://smb.ibsrv.net/imageresizer/image/blog_images/1200x1200/58374/75587/0000655001540319655.jpg",
+                "image": "https://images.newscientist.com/wp-content/uploads/2021/06/03141753/03-june_puppies.jpg?width=900"
                 },
                 {
                     "tvColor": "purple",
@@ -134,24 +134,24 @@
                     "topblock1": "red",
                     "topblock2": "red",
                     "topblock3": "red",
-                    "topblock4": "red",
+                    "topblock4": "white",
                     "topblock5": "red",
                     "topblock6": "red",
                     "topblock7": "red",
                 
-                    "bottomBlock1": "red",
+                    "bottomBlock1": "pruple",
                     "bottomBlock3": "red",
                     "bottomBlock5": "red",
                     "bottomBlock7": "red",
                 
-                    "badgeTitleColor": "white",
+                    "badgeTitleColor": "purple",
                 
-                    "eventBadgeTitle": "MEDIA",
-                    "eventBadgeAuthor": "Jess",
-                    "titleOfAuthor": "Professional Coder",
-                    "brandName": "Amazing!",
+                    "eventBadgeTitle": "COLORS",
+                    "eventBadgeAuthor": "Nice to meet you",
+                    "titleOfAuthor": "train Station",
+                    "brandName": "Weird!",
                 
                     "logo": "https://paradepets.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkxMzY1Nzg4NjczMzIwNTQ2/cutest-dog-breeds-jpg.webp",
-                    "image": "https://www.banfield.com/-/media/Project/Banfield/Main/en/Wellness_at_Banfield/Puppy_Hub/Puppy_Hub_0-3_Months/0992_01_4x3L.jpg?h=1153&w=1536&rev=1187902491b444ddaed3186dddac7b64&hash=0EBAED4A670DF63314C9994D96AE80AA"
+                    "image": "https://smb.ibsrv.net/imageresizer/image/blog_images/1200x1200/58374/75587/0000655001540319655.jpg"
                     }
 ]
