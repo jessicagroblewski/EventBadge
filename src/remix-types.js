@@ -42,7 +42,7 @@ export class RemixTypes extends LitElement{
     constructor(){
           super();
           this.types=[];
-          this.tvColor= 'blue';
+          this.tvColor= 'orange';
           this.tvIntenna= 'pink';
           this.badgeBorder= 'black';
           this.textColor= 'orange';
@@ -64,7 +64,7 @@ export class RemixTypes extends LitElement{
       
           this.badgeTitleColor='white';
       
-          this.eventBadgeTitle='PUPPY';
+          this.eventBadgeTitle='PUPPIES';
           this.eventBadgeAuthor='Jess';
           this.titleOfAuthor='Professional Coder';
           this.brandName='Amazing!'
@@ -76,13 +76,13 @@ export class RemixTypes extends LitElement{
 
     static get styles() {
         return css`
-            :host([sepia]){
+      :host([sepia]){
       filter: sepia(1);
     }
-    :host([grayscale]){
+      :host([grayscale]){
       filter: grayscale(1);
     }
-   .logo{
+      .logo{
         width: 30px;
         height: 30px;
         position: absolute;
@@ -107,8 +107,8 @@ export class RemixTypes extends LitElement{
     }
 
     updateType() { 
-      const addres = new URL('../assets/type.json', import.meta.url).href;
-     const data = fetch (addres).then((response) => { 
+     const address = new URL('../assets/type.json', import.meta.url).href;
+     fetch (address).then((response) => { 
       if (response.ok){
             return response.json()
       }
@@ -116,9 +116,10 @@ export class RemixTypes extends LitElement{
        })
        .then((data) => {
               this.types = data;
+              console.log(data);
           });
 
-            console.log(data);
+            
 
      }
 
@@ -128,30 +129,30 @@ export class RemixTypes extends LitElement{
       ${this.types.map(type => html`
       <div class="item"> 
       <project-3
-      tvColor="${this.tvColor}"
-      tvIntenna="${this.tvIntenna}"
-      badgeBorder="${this.badgeBorder}"
-      textColor="${this.textColor}"
-      tvOutline="${this.tvOutline}"
-      cardColor="${this.cardColor}"
-      topblock1="${this.topblock1}"
-      topblock2="${this.topblock2}"
-      topblock3="${this.topblock3}"
-      topblock4="${this.topblock4}"
-      topblock5="${this.topblock5}"
-      topblock6="${this.topblock6}"
-      topblock7="${this.topblock7}"
-      bottomBlock1="${this.bottomBlock1}"
-      bottomBlock3="${this.bottomBlock3}"
-      bottomBlock5="${this.bottomBlock5}"
-      bottomBlock7="${this.bottomBlock7}"
-      badgeTitleColor="${this.badgeTitleColor}"
-      eventBadgeTitle="${this.eventBadgeTitle}"
-      eventBadgeAuthor="${this.eventBadgeAuthor}"
-      titleOfAuthor="${this.titleOfAuthor}"
-      brandName="${this.brandName}"
-      logo="${this.logo}"
-      image="${this.image}"
+      tvColor="${type.tvColor}"
+      tvIntenna="${type.tvIntenna}"
+      badgeBorder="${type.badgeBorder}"
+      textColor="${type.textColor}"
+      tvOutline="${type.tvOutline}"
+      cardColor="${type.cardColor}"
+      topblock1="${type.topblock1}"
+      topblock2="${type.topblock2}"
+      topblock3="${type.topblock3}"
+      topblock4="${type.topblock4}"
+      topblock5="${type.topblock5}"
+      topblock6="${type.topblock6}"
+      topblock7="${type.topblock7}"
+      bottomBlock1="${type.bottomBlock1}"
+      bottomBlock3="${type.bottomBlock3}"
+      bottomBlock5="${type.bottomBlock5}"
+      bottomBlock7="${type.bottomBlock7}"
+      badgeTitleColor="${type.badgeTitleColor}"
+      eventBadgeTitle="${type.eventBadgeTitle}"
+      eventBadgeAuthor="${type.eventBadgeAuthor}"
+      titleOfAuthor="${type.titleOfAuthor}"
+      brandName="${type.brandName}"
+      logo="${type.logo}"
+      image="${type.image}"
       ></project-3>
       </div>
       `)}
